@@ -1,0 +1,25 @@
+name: hifdh_app
+description: "حِفظ - تذكير بالمواعيد والفواتير والضمانات"
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  supabase_flutter: ^2.5.6
+  intl: ^0.19.0
+  sign_in_with_apple: ^6.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
